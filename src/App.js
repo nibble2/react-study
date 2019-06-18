@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useRef } from 'react';
 import UserList2 from './components/UserList2' ;
 import CreateUser2 from './components/CreateUser2' ;
@@ -72,6 +73,15 @@ function App() {
       <UserList2 users={users} onRemove={onRemove} />
     </>
   ) ;
+=======
+import React from 'react';
+import InputSample from './components/InputSample' ;
+
+function App() {
+  return (
+    <InputSample />
+  );
+>>>>>>> 15705a69518fcea689f7408a8c91dc841db83fec
 }
 
 export default App;
